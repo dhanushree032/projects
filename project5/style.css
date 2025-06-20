@@ -1,0 +1,63 @@
+body{
+   font-family: 'Segoe UI',sans-serif;
+    background:linear-gradient(to right, #2a9d8f,#e76f51);
+   color: #333;
+   justify-content: center;
+   display: flex;
+   height: 800px;
+   align-items: center;
+
+}
+.conta{
+    display: flex;
+    width: 900px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    }
+    .chat{
+        flex:1;
+        background: #ff6f61;
+        color: white;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .chat h1{
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    .chart p{
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .right{
+        flex: 1;
+        background: #fff;
+        padding: 40px;
+    }
+    .right h2{
+        font-size: 32px;
+        margin-bottom: 20px;
+        color: #333;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    form lable{
+        margin: 10px 0 5px;
+        flex-direction: column;
+    }
+    button{
+        margin-top:20px ;
+        background: #ff6f61;
+        color: white;
+        border: none;
+        padding: 12px;
+
+    }
+    button:hover{
+        background: #e05245;
+    }
